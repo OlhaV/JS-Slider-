@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <title>Slider</title>
+    <link type='text/css' rel='stylesheet' href='stylesheets/reset.css'>
+    <link type='text/css' rel='stylesheet' href='stylesheets/style.css'>
+</head>
+<body>
+    <div id='slider'>
+            <img id='left_arrow' src='images/buttons/left_button.png'>
+            <img id='slider_image' src='images/image_1.jpg'>
+            <img id='rigth_arrow' src='images/buttons/right_button.png'>
+        </ul>
+        <div id='controls'>
+            <ul id='buttons'>
+                <li class='slider_button active'></li>
+                <li class='slider_button'></li>
+                <li class='slider_button'></li>
+                <li class='slider_button'></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src='scripts/jquery-2.1.4.min.js'></script>
+<script src='scripts/slider.js'></script>
+<script> 
+    var s1 = new Slider('#slider');
+</script>
+</html>
